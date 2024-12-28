@@ -1,0 +1,9 @@
+A = float(input("nilai A: "))
+B = float(input("nilai B: "))
+C = (B * B - A * A) ** 0.5
+keliling = A + B + C
+luas = (A * C) / 2
+print(f"Alas = {int(C)} cm") 
+print(f"Tinggi = {int(A)} cm") 
+print(f"Keliling = {int(keliling)} cm") 
+print(f"Luas = {int(luas)} cm^2")
